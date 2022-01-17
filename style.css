@@ -1,0 +1,30 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: boxshadowchanger;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boxshadowchanger {
+    0% {box-shadow: 1px 1px 38px orange;}
+    25% {box-shadow: 1px 1px 38px gray;}
+    50% {box-shadow: 1px 1px 38px navy;}
+    75% {box-shadow: 1px 1px 38px green;}
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 238, 204);
+    color: black;
+    text-align: center;
+}
